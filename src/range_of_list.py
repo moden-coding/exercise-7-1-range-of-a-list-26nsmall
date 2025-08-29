@@ -1,5 +1,6 @@
 # Write your solution here
 def range_of_list(list : list):
+    return max(list)-min(list)
     pass    
 # You can test your function by calling it within the following block
 if __name__ == "__main__":
